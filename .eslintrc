@@ -1,0 +1,7 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "react/display-name": "off",
+    "react/prop-types": "off"
+  }
+}
