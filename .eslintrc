@@ -1,5 +1,14 @@
 {
-  "extends": "@antfu",
+  "extends": [
+    "plugin:vue/vue3-essential"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {
+      "jsx": true,
+      "tsx": true
+    }
+  },
   "rules": {
     "react/display-name": "off",
     "react/prop-types": "off"
