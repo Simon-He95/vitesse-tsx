@@ -15,6 +15,8 @@ importers:
       pkgroll: ^1.3.1
       typescript: ^4.7.2
       vite: ^3.0.2
+      vite-plugin-css-injected-by-js: ^2.1.0
+      vite-plugin-lib-insert-unocss: ^0.0.0
       vitest: ^0.13.1
       vue: ^3.2.36
     dependencies:
@@ -31,6 +33,8 @@ importers:
       pkgroll: 1.3.1_typescript@4.7.2
       typescript: 4.7.2
       vite: 3.0.2
+      vite-plugin-css-injected-by-js: 2.1.0_vite@3.0.2
+      vite-plugin-lib-insert-unocss: 0.0.0
       vitest: 0.13.1
 
   playground:
@@ -4795,6 +4799,18 @@ packages:
     dependencies:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
+    dev: true
+
+  /vite-plugin-css-injected-by-js/2.1.0_vite@3.0.2:
+    resolution: {integrity: sha512-p5Tn63xfYd1j4Hhnn9YuVMF3t7eLpiHejKNcIeGOWNU60bsw8WXmLQSVGtraw3C6qNz5LnF3S8R1SQLe4/LBYw==}
+    peerDependencies:
+      vite: '>2.0.0-0'
+    dependencies:
+      vite: 3.0.2
+    dev: true
+
+  /vite-plugin-lib-insert-unocss/0.0.0:
+    resolution: {integrity: sha512-ACcmX6uYoT0sRPFAdutjp6R0TetozCTbI2WQyAP1SeiThxJsk4Sg0/UfAe36lqHorcoI9We9afYxhLxy7tNvCA==}
     dev: true
 
   /vite-plugin-pages/0.22.0_vite@3.0.2:

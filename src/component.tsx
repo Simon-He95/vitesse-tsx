@@ -1,4 +1,5 @@
 import { defineComponent, ref } from 'vue'
+import './index.css'
 
 export const component = defineComponent({
   name: 'Component',
