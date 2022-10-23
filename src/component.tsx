@@ -18,7 +18,7 @@ export const component = defineComponent({
     const increment = () => count.value++
     return () => (
       <div>
-        <h1 class="text-red">{props.title}</h1>
+        <h1 className="text-red">{props.title}</h1>
         <p>{props.content}</p>
         <div onClick={increment}>
           count: {count.value}

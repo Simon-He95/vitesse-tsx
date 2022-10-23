@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "plugin:vue/vue3-essential"
-  ],
+  "extends": "@antfu",
   "parserOptions": {
     "ecmaVersion": "latest",
     "ecmaFeatures": {
