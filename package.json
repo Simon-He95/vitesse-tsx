@@ -33,10 +33,13 @@
     "node": ">=14.6"
   },
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "simple-git-hooks",
     "build": "vite build",
     "dev": "pkgroll --watch",
     "play": "pnpm run -C playground dev",
     "play:build": "pnpm run -C playground build",
+    "format": "prettier --write --cache .",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json --max-warnings 0 --cache",
     "lint:fix": "pnpm run lint --fix",
     "typecheck": "vue-tsc --noEmit",
@@ -57,15 +60,29 @@
     "@types/node": "^17.0.45",
     "@vitejs/plugin-vue": "^3.1.2",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
-    "bumpp": "^7.2.0",
+    "bumpp": "^8.2.1",
     "eslint": "^8.26.0",
     "eslint-plugin-n": "^15.3.0",
+    "lint-staged": "^13.1.0",
     "pkgroll": "^1.4.0",
+    "prettier": "^2.8.1",
+    "simple-git-hooks": "^2.8.1",
+    "tsx": "^3.12.1",
     "typescript": "^4.8.4",
     "vite": "^3.1.8",
     "vite-plugin-css-injected-by-js": "^2.1.0",
     "vite-plugin-dts": "^1.6.6",
     "vite-plugin-lib-insert-unocss": "^0.0.0",
     "vitest": "^0.13.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec lint-staged --concurrent false",
+    "commit-msg": "pnpm exec tsx scripts/verifyCommit.ts $1"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --cache --ignore-unknown"
+    ],
+    "*.{vue,js,ts,jsx,tsx,md,json}": "eslint --fix"
   }
 }
