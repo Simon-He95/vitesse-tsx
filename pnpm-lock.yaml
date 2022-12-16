@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@antfu/eslint-config': ^0.34.0
-      '@types/node': ^17.0.45
+      '@types/node': ^18.0.0
       '@vitejs/plugin-vue': ^3.1.2
       '@vitejs/plugin-vue-jsx': ^2.0.1
       '@vueuse/core': ^8.9.4
@@ -31,7 +31,7 @@ importers:
       vue: 3.2.41
     devDependencies:
       '@antfu/eslint-config': 0.34.0_wyqvi574yv7oiwfeinomdzmc3m
-      '@types/node': 17.0.45
+      '@types/node': 18.11.15
       '@vitejs/plugin-vue': 3.1.2_vite@3.1.8+vue@3.2.41
       '@vitejs/plugin-vue-jsx': 2.0.1_vite@3.1.8+vue@3.2.41
       bumpp: 8.2.1
@@ -53,7 +53,7 @@ importers:
     specifiers:
       '@antfu/eslint-config': ^0.34.0
       '@iconify-json/carbon': ^1.1.2
-      '@types/node': ^17.0.21
+      '@types/node': ^18.0.0
       '@unocss/reset': ^0.47.0
       '@vitejs/plugin-vue': ^3.0.1
       '@vue/test-utils': ^2.0.0-rc.18
@@ -77,7 +77,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config': 0.34.0_xztl6dhthcahlo6akmb2bmjmle
       '@iconify-json/carbon': 1.1.6
-      '@types/node': 17.0.38
+      '@types/node': 18.11.15
       '@unocss/reset': 0.47.6
       '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.36
       '@vue/test-utils': 2.0.2_vue@3.2.36
@@ -1077,12 +1077,8 @@ packages:
     resolution: {integrity: sha512-yxDeaQIAJlMav7fH5AQqPH1u8YIuhYJXYBzxaQ4PifsU0GDO38MSdmEDeRlIxrKbC6NbEaaEHDanWb+y30U8SQ==}
     dev: true
 
-  /@types/node/17.0.38:
-    resolution: {integrity: sha512-5jY9RhV7c0Z4Jy09G+NIDTsCZ5G0L5n+Z+p+Y7t5VJHM30bgwzSjVtlcBxqAj+6L/swIlvtOSzr8rBk/aNyV2g==}
-    dev: true
-
-  /@types/node/17.0.45:
-    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+  /@types/node/18.11.15:
+    resolution: {integrity: sha512-VkhBbVo2+2oozlkdHXLrb3zjsRkpdnaU2bXmX8Wgle3PUi569eLRaHGlgETQHR7lLL1w7GiG3h9SnePhxNDecw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1092,7 +1088,7 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.11.15
     dev: true
 
   /@types/semver/7.3.12:
