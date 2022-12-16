@@ -22,7 +22,7 @@ importers:
       vite-plugin-css-injected-by-js: ^2.1.0
       vite-plugin-dts: ^1.6.6
       vite-plugin-inspector-lib-css: ^0.0.2
-      vite-plugin-lib-insert-unocss: ^0.0.0
+      vite-plugin-lib-insert-unocss: ^0.0.1
       vitest: ^0.13.1
       vue: ^3.2.41
     dependencies:
@@ -46,7 +46,7 @@ importers:
       vite: 3.1.8
       vite-plugin-css-injected-by-js: 2.1.0_vite@3.1.8
       vite-plugin-dts: 1.6.6_vite@3.1.8
-      vite-plugin-lib-insert-unocss: 0.0.0
+      vite-plugin-lib-insert-unocss: 0.0.1
       vitest: 0.13.1
 
   playground:
@@ -6763,8 +6763,8 @@ packages:
       - vite
     dev: false
 
-  /vite-plugin-lib-insert-unocss/0.0.0:
-    resolution: {integrity: sha512-ACcmX6uYoT0sRPFAdutjp6R0TetozCTbI2WQyAP1SeiThxJsk4Sg0/UfAe36lqHorcoI9We9afYxhLxy7tNvCA==}
+  /vite-plugin-lib-insert-unocss/0.0.1:
+    resolution: {integrity: sha512-a7uXU5r+PskbYceCBYo4Jb8SgDD8cYqd8gxz80DuCOLLVmH7kHHBOUCyQ6/xuZa+tWwuPhl2M6geRocjZBzHhQ==}
     dev: true
 
   /vite-plugin-pages/0.22.0_vite@3.0.2:
