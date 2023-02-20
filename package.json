@@ -84,5 +84,8 @@
       "prettier --write --cache --ignore-unknown"
     ],
     "*.{vue,js,ts,jsx,tsx,md,json}": "eslint --fix"
+  },
+  "stackblitz": {
+    "startCommand": "pnpm --filter='./playground' run dev"
   }
 }
