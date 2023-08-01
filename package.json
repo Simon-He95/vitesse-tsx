@@ -73,7 +73,7 @@
     "vite-plugin-css-injected-by-js": "^2.1.0",
     "vite-plugin-dts": "^1.6.6",
     "vite-plugin-lib-insert-unocss": "^0.0.1",
-    "vitest": "^0.13.1"
+    "vitest": "^0.34.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged --concurrent false",
